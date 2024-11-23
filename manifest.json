@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "CU LMS: Reverse blocks",
+    "version": "1.0",
+    "description": "Reverses the order of tui-accordion blocks on the specified website.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["https://my.centraluniversity.ru/learn/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://my.centraluniversity.ru/learn/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
