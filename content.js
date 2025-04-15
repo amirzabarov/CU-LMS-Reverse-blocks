@@ -9,7 +9,7 @@ function log(message, ...optionalParams) {
 }
 
 // Регулярное выражение для проверки URL
-const targetUrlPattern = /^https:\/\/my\.centraluniversity\.ru\/learn\/courses\/view\/\d+$/;
+const targetUrlPattern = /^https:\/\/my\.centraluniversity\.ru\/learn\/courses\/view\/actual\/\d+$/;
 
 // Функция для обработки элемента tui-accordion
 function processAccordion(target) {
